@@ -1,0 +1,69 @@
+.users-section{
+    width: 100%;
+    height: 100vh;
+
+    .div-1{
+        width: 100%;
+        height: 17vh;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items:flex-start;
+        justify-content: center;
+        flex-direction: column;
+
+        h2{
+            color: brown;
+        }
+    }
+    .div-2{
+        width: 100%;
+        min-height: 83vh;
+        padding: 1rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        gap: 2rem;
+        
+
+        .card{
+            width: 100%;
+            height: 70vh;
+            background-color: green;
+            border-radius: 10px;
+
+            .top-card{
+                width: 100%;
+                height: 86%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: orangered;
+
+                img{
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+            .middle-card{
+                width: 100%;
+                height: 7%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 120%;
+                font-weight: 500;
+                color: aqua;
+            }
+            .bottom-card{
+                width: 100%;
+                height: 7%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 120%;
+                font-weight: 500;
+                color: black;
+            }
+
+        }
+    }
+}
